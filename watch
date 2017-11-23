@@ -1,0 +1,3 @@
+#!/bin/sh
+
+pug -w --pretty pug/index.pug -o .
