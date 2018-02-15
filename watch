@@ -1,3 +1,6 @@
 #!/bin/sh
 
 pug -w --pretty pug/index.pug -o .
+
+# par "pug -w --pretty pug/index.pug -o ." \
+#    "ls index.html | entr -s 'inliner index.html > inline.html'"
